@@ -1,0 +1,142 @@
+.landingContainer {
+  font-family: "Poppins", sans-serif;
+  color: #2d3748;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #1a202c, #2d3748);
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.textContainer {
+  flex: 1;
+  text-align: center;
+  padding-left: 15rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  line-height: 1.3;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title span {
+  color: #f6ad55;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 5rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.heroImage {
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.story {
+  text-align: justify;
+  margin: 3rem auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.story h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2b6cb0;
+}
+
+.story p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.gallery {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #38a169;
+}
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.galleryGrid img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.galleryGrid img:hover {
+  transform: scale(1.05);
+}
+
+.cta {
+  text-align: center;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: #2d3748;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.ctaButton {
+  background: #f6ad55;
+  color: #1a202c;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: #ed8936;
+  transform: translateY(-2px);
+}

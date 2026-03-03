@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #444c3d;
+  color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 5px 0;
+}
+
+.techLogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.techLogos img {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.3s ease;
+  border-radius: 6px;
+}
+
+.techLogos img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #fff;
+}

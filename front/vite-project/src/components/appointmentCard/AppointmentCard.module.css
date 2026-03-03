@@ -1,0 +1,54 @@
+.container {
+  background-color: lightcyan;
+  color: darkslategray;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.date {
+  text-align: left;
+  font-weight: bold;
+}
+
+.details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+}
+
+.status {
+  text-align: right;
+  font-weight: bold;
+}
+
+.active {
+  color: green;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active:hover {
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.cancelled {
+  color: red;
+}
+
+.notCancelable {
+  color: gray;
+  cursor: not-allowed;
+}

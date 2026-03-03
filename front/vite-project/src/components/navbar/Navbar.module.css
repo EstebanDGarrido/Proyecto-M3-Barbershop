@@ -1,0 +1,68 @@
+.container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 1.5rem;
+  background: linear-gradient(135deg, #1a202c, #2d3748);
+  color: #e2e8f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.logoSection img {
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.logoSection img:hover {
+  transform: scale(1.05);
+}
+
+.linkSection {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.linkSection span {
+  position: relative;
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.linkSection span:hover {
+  color: #f6ad55;
+}
+
+.linkSection span::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #f6ad55;
+  transition: width 0.3s ease;
+}
+
+.linkSection span:hover::after {
+  width: 100%;
+}
+
+.avatarSection img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f6ad55;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatarSection img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(246, 173, 85, 0.6);
+}
